@@ -1,5 +1,5 @@
 pages\Basepage.class
-pages\Orderpage.class
-pages\Loginpage.class
 testUtils\Utilss.class
+pages\Orderpage.class
 pages\Dashboardpage.class
+pages\Loginpage.class
