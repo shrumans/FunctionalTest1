@@ -23,7 +23,14 @@ public class Orderpage extends Basepage {
 	
 	
 	public void clickOnAddBulkOrders() {
-		clickElement(addBulkOrders);
+		
+		WebElement add=driver2.findElement(addBulkOrders);
+		Actions action =new Actions(driver2);
+		action.moveToElement(add)
+		      .click()
+		      .perform();
+		
+		//clickElement(addBulkOrders);
 	}
 	
 	public void clickOnChooseFile() {

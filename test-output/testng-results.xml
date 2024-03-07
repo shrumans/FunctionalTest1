@@ -2,23 +2,19 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-07T12:31:29 IST" name="Default suite" finished-at="2024-03-07T12:31:53 IST" duration-ms="24171">
+  <suite started-at="2024-03-07T18:28:18 IST" name="Default suite" finished-at="2024-03-07T18:28:43 IST" duration-ms="24885">
     <groups>
     </groups>
-    <test started-at="2024-03-07T12:31:29 IST" name="Default test" finished-at="2024-03-07T12:31:53 IST" duration-ms="24171">
+    <test started-at="2024-03-07T18:28:18 IST" name="Default test" finished-at="2024-03-07T18:28:43 IST" duration-ms="24885">
       <class name="testcases.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.LoginTest@78e117e3]" started-at="2024-03-07T12:31:29 IST" name="setUp" finished-at="2024-03-07T12:31:34 IST" duration-ms="5263" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.LoginTest@78e117e3]" started-at="2024-03-07T18:28:19 IST" name="setUp" finished-at="2024-03-07T18:28:23 IST" duration-ms="4541" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LoginAndFileUploadTest()[pri:0, instance:testcases.LoginTest@78e117e3]" started-at="2024-03-07T12:31:34 IST" name="LoginAndFileUploadTest" finished-at="2024-03-07T12:31:53 IST" duration-ms="18485" status="PASS">
+        <test-method signature="LoginAndFileUploadTest()[pri:0, instance:testcases.LoginTest@78e117e3]" started-at="2024-03-07T18:28:23 IST" name="LoginAndFileUploadTest" finished-at="2024-03-07T18:28:43 IST" duration-ms="20282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginAndFileUploadTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTest@78e117e3]" started-at="2024-03-07T12:31:53 IST" name="tearDown" finished-at="2024-03-07T12:31:53 IST" duration-ms="348" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- testcases.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

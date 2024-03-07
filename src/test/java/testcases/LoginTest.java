@@ -25,10 +25,10 @@ public class LoginTest extends BaseTest {
 		dashpage.clickOnOrderMenu();
 		Utilss.hardWait(1);
 		dashpage.clickOnOrders();
-		Utilss.hardWait(1);
+		Utilss.hardWait(3);
 		System.out.println("clicked on orders");
 		orderpage.clickOnAddBulkOrders();
-		Utilss.hardWait(1);
+		Utilss.hardWait(2);
 		System.out.println("clicked on addBulkOrders");
 		orderpage.clickOnChooseFile();
 		Utilss.hardWait(2);
