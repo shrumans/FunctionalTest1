@@ -36,7 +36,7 @@ public class LoginTest extends BaseTest {
 		Utilss.hardWait(2);
 		System.out.println("file upload successful");
 		orderpage.clickOnImport();
-		Utilss.hardWait(1);
+		Utilss.hardWait(5);
 		System.out.println("clicked on Import");
 		orderpage.clickOnValidateData();
 		Utilss.hardWait(1);

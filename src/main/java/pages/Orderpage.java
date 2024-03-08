@@ -18,8 +18,8 @@ public class Orderpage extends Basepage {
 
 	By addBulkOrders=By.xpath("//button[@align='right']");
 	By chooseFile=By.xpath("//fieldset[@aria-hidden='true']");
-	By importButton=By.xpath("//button[contains(@class,'MuiButtonBase-root  css-6aomwy')]");
-	By validateData=By.xpath("//button[contains(@class,'MuiButtonBase-root  css-6aomwy')]");
+	By importButton=By.xpath("//button[text()='Import']");
+	By validateData=By.xpath("//button[text()='Validate Data']");
 	
 	
 	public void clickOnAddBulkOrders() {
