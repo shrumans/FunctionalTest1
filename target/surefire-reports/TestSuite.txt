@@ -1,17 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 42.058 s <<< FAILURE! - in TestSuite
-LoginAndFileUploadTest(testcases.LoginTest)  Time elapsed: 36.294 s  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 39.986 s <<< FAILURE! - in TestSuite
+LoginAndFileUploadTest(testcases.LoginTest)  Time elapsed: 34.707 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@class,'MuiButtonBase-root  css-6aomwy')]"}
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Import']"}
   (Session info: chrome=122.0.6261.95)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-O0UEV0M', ip: '10.20.83.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62965}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e12e7abbdb55ea83f50fc8540526795b
-*** Element info: {Using=xpath, value=//button[contains(@class,'MuiButtonBase-root  css-6aomwy')]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63445}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 98c51fd5635ca88436d823948926e6e5
+*** Element info: {Using=xpath, value=//button[text()='Import']}
 	at testcases.LoginTest.LoginAndFileUploadTest(LoginTest.java:38)
 

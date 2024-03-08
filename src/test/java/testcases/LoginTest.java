@@ -36,10 +36,10 @@ public class LoginTest extends BaseTest {
 		Utilss.hardWait(2);
 		System.out.println("file upload successful");
 		orderpage.clickOnImport();
-		Utilss.hardWait(5);
+		Utilss.hardWait(2);
 		System.out.println("clicked on Import");
 		orderpage.clickOnValidateData();
-		Utilss.hardWait(1);
+		Utilss.hardWait(3);
 		System.out.println("clicked on ValidateData");
 		//Handling Alert
 		driver.switchTo().alert().accept();
